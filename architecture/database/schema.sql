@@ -1,3 +1,6 @@
+-- Reference PostgreSQL schema for the proposed internal architecture.
+-- This file is intentionally a data-model artifact, not a runnable deployment.
+
 CREATE TABLE IF NOT EXISTS organizations (
   id TEXT PRIMARY KEY,
   name TEXT NOT NULL,

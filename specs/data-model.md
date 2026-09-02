@@ -49,9 +49,6 @@ Mutations must write audit logs for:
 - job create/status update
 - membership changes when implemented
 
-## Runtime Config
+## Reference status
 
-- `DATABASE_URL` is required for PostgreSQL.
-- `DATABASE_POOL_MAX` controls connection pool max.
-- `BOOTSTRAP_OWNER_EMAIL` seeds the first owner during DB init.
-- `PORT` controls the HTTP server port.
+The schema is a proposed implementation model. It does not imply that this showcase repository includes a running database, migration runner, authentication service, or deployed application.
