@@ -1,0 +1,8 @@
+{
+  "name": "@content/gws-runner",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

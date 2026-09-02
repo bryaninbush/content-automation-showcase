@@ -1,0 +1,50 @@
+# ─── macOS ───
+.DS_Store
+
+# ─── Obsidian 個人工作區 ───
+.obsidian/
+
+# ─── Claude Code 本機設定 ───
+.claude/settings.local.json
+
+# ─── 客戶資料：只保留 knowledge/ ───
+clients/*/client-config.md
+!clients/Mother Rain/client-config.md
+clients/*/content-queue.md
+clients/*/output/
+
+# ─── 環境變數 / 金鑰（絕對不能上） ───
+.env
+.env.*
+!.env.example
+pm/.secrets/
+*.key
+*.pem
+credentials.json
+service-account*.json
+
+# ─── Python ───
+__pycache__/
+*.pyc
+*.pyo
+
+# ─── Node / 前端 ───
+node_modules/
+dist/
+build/
+.next/
+
+# ─── 本地資料庫 / 暫存資料 ───
+data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# ─── IDE / 編輯器 ───
+.vscode/
+.idea/
+*.swp
+*~
+
+# ─── 日誌 ───
+*.log
